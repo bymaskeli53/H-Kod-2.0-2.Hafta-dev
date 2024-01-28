@@ -1,0 +1,20 @@
+4-
+void main() {
+  int charge = 0;
+
+  if (charge == 100) {
+    print("Telefon şarj edildi.");
+  } else if (charge >= 10 && charge < 20) {
+    print("Telefonunuzu şarj edin.");
+  } else if (charge < 10 && charge > 0) {
+    print("Kritik batarya seviyesi.");
+  } else if (charge >= 20 && charge < 100){
+    print("Normal Pil seviyesi");
+    
+  } else if(charge == 0){
+    print("Telefon kapanıyor GG");
+  } 
+  else {
+    print("Telefon uzaydan mı geliyor");
+  }
+}

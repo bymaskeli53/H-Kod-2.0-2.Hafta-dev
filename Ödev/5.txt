@@ -1,0 +1,9 @@
+
+5-
+void main() {
+  printGreeting("Muhammet",23,180.0,"Mavi");
+}
+
+void printGreeting(String name,int age,double height,String favouriteColor) {
+  print("Merhaba ben, $name! , yaşım $age , boyum $height , en sevdiğim renk $favouriteColor");
+}

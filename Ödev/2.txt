@@ -1,0 +1,18 @@
+2-
+void main() {
+  String name = "Muhammet";
+  int age = 23;
+  double height = 180.0;
+  bool isStudent = true;
+
+  print("Name: $name");
+  print("Age: $age");
+  print("Height: $height cm");
+  if(isStudent){
+    print("I am a student");
+  } else {
+    print("I am not a student");
+  }
+ 
+  
+}
